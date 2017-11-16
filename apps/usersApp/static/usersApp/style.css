@@ -1,0 +1,29 @@
+.container{
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: darkcyan;
+}
+table{
+    display: inline-block;
+    border-collapse: collapse;
+}
+tr:first-child{
+    background: lightseagreen;
+}
+input{
+    width: 250px;
+    margin: 5px;
+    height: 20px;
+}
+button{
+    width: 258px;
+    height: 20px;
+}
+.error{
+    color: red;
+}
