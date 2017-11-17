@@ -37,7 +37,6 @@ def edit(request, number):
     return render(request, "usersApp/edit.html", context)
 def update(request, number):
     result = User.objects.validate(request.POST)
-    print result
     if len(result):
         print "hi i'm in if"
         for error in result:

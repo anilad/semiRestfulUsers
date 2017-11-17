@@ -22,7 +22,7 @@ class UserManager(models.Manager):
             errors.append("Email cannot be empty")
         else:
             if not EMAIL_REGEX.match(postData['email']):
-                errors.append("Invaid email")
+                errors.append("Invalid email")
         return errors
             
         
